@@ -30,4 +30,3 @@ class FilaPrioritaria:
             estatistica = {"Dia": dia, "Agência": agencia, "Clientes Atendidos": self.clientes_atendidos,
                            "Quantidade de Clientes Atendidos": len(self.clientes_atendidos)}
         return estatistica
-
